@@ -1,0 +1,80 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro notadovestibular = 7
+		inteiro notadovestibular2 = 7
+		inteiro maiornotaturma = 7
+		inteiro maiornotatodos = 9
+		inteiro aluno = 0
+		inteiro passado = 0
+		inteiro aprovado = 1
+	     inteiro nome
+		
+		cadeia Turma
+		cadeia turmaA ="A"
+		cadeia turmaB = "B"
+		cadeia turmaC = "C"
+		cadeia turmaD = "D"
+
+
+		escreva ("Seu nome")
+		leia (nome)
+		escreva ("Sua turma")
+		leia (Turma)
+		escreva ("Sua nota")
+		leia (notadovestibular)
+		se (notadovestibular >=7){
+		escreva("Aprovado")
+		se(notadovestibular <7){
+			escreva ("Reprovado")
+
+			escreva ("nome, nota, turmaA")
+			leia(notadovestibular)
+			se (notadovestibular >=7){
+				escreva ("Aprovado")
+				
+				escreva ("nome, nota, turmaA")
+			leia(notadovestibular)
+			se (notadovestibular <7)
+				escreva ("Reprovado")
+
+				escreva ("nome, nota, turmaB")
+			leia(notadovestibular)
+			se (notadovestibular >=7){
+				escreva ("Aprovado")
+				
+				escreva ("nome, nota, turma")
+			leia(notadovestibular)
+			se (notadovestibular <7)
+				escreva ("Reprovado")
+
+				escreva ("nome, nota, turmaC")
+			leia(notadovestibular)
+			se (notadovestibular >=7){
+				escreva ("Aprovado")
+				
+				escreva ("nome, nota, turmaC")
+			leia(notadovestibular)
+			se (notadovestibular <7)
+				escreva ("Reprovado")
+
+				escreva ("nome, nota, turmaD")
+			leia(notadovestibular)
+			se (notadovestibular >=7){
+				escreva ("Aprovado")
+				
+				escreva ("nome, nota, turmaD")
+			leia(notadovestibular)
+			se (notadovestibular <7)
+				escreva ("Reprovado")
+
+				se (maiornotatodos ==9){
+					escreva ("aluno aprovano no vestibular")
+				}
+			}
+			
+		}
+	}
+}}}}}
